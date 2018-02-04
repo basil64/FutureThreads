@@ -1,0 +1,8 @@
+futures\tasks\TaskConfiguration.class
+futures\tasks\SmallTaskImpl.class
+futures\tasks\TaskCompletionService.class
+futures\tasks\Task.class
+futures\FutureThreadApplication.class
+futures\TaskExecutor.class
+futures\tasks\BigTaskImpl.class
+futures\tasks\TaskService.class
