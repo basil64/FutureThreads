@@ -44,7 +44,7 @@ public class TaskService {
         LOGGER.info("bigTask1 id = [{}]", bigTask1.getId());
         BigTaskImpl bigTask2 = bigTaskSupplier.get();
         LOGGER.info("bigTask2 id = [{}]", bigTask2.getId());
-        bigTask2.setIterations(50);
+        bigTask2.setIterations(70);
         CompletionService<String> completionService = taskCompletionService.getCompletionService();
         completionService.submit(bigTask1);
         completionService.submit(smallTask1);
