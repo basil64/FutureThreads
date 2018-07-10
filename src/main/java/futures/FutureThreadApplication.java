@@ -10,6 +10,7 @@ public class FutureThreadApplication {
     final static Logger LOGGER = LoggerFactory.getLogger(FutureThreadApplication.class);
     public static void main(String[] args) {
         LOGGER.info("Hello [{}]", 100);
+		LOGGER.info("This is test message");
         SpringApplication.run(FutureThreadApplication.class, args);
     }
 }
