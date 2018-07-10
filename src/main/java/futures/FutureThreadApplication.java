@@ -12,6 +12,7 @@ public class FutureThreadApplication {
         LOGGER.info("Hello [{}]", 100);
 		LOGGER.info("This is test message 1");
 		LOGGER.info("This is test message 2");
+		LOGGER.info("This is test message 3");
         SpringApplication.run(FutureThreadApplication.class, args);
     }
 }
